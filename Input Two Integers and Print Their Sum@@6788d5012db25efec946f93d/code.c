@@ -4,7 +4,7 @@ int main(){
     int s;
     scanf("%d\t",a);
     scanf("%d",b);
-    s=a+b;
+    int s=a+b;
     print("Sum: %d",s);
     return 0;
 }
