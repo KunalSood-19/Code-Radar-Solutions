@@ -4,4 +4,4 @@ int main(){
     scanf("%s",&ch);
     printf("You entered: %s",ch);
     return 0;
-}+
+}
