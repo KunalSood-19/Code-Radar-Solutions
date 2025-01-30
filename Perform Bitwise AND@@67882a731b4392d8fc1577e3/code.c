@@ -5,5 +5,5 @@ int main(){
     scanf("%d",&b);
     int result=(a & b);
     printf("%d",result);
-    resturn 0;
+    return 0;
 }
