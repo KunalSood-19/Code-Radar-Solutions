@@ -1,8 +1,9 @@
 #include <stdio.h>
 int main(){
-    int a;
+    int a,p;
     scanf("%d",&a);
-    if (a&1==1){
+    scanf("%d",&p);
+    if ((a>>p)&1){
         printf("%d",1);
     }else{
         printf("%d",1);
