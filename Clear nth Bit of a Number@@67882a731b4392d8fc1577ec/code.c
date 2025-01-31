@@ -3,7 +3,6 @@ int main(){
     int a,b;
     scanf("%d",&a);
     scanf("%d",&b);
-    int r=(int)((a>>b)&0);
-    printf("%d",r);
+    ptintf("%d",((a>>b)&0));
     return 0;
 }
