@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int n;
     scanf("%d",&n);
-    r=n&(1<<31);
+    int r=n&(1<<31);
     printf("%d",r);
     return 0;
 }
