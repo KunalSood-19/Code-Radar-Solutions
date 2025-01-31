@@ -8,6 +8,12 @@ int main() {
     int n;
     scanf("%d",&n);
     int r=n&(1<<31);
-    printf("%d",r);
+    if (r==1){
+        printf("Set");
+    }else{
+        printf("Not Set");
+    }
+
+
     return 0;
 }
