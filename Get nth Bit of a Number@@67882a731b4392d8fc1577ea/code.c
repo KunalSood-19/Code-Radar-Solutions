@@ -5,8 +5,8 @@ int main(){
     scanf("%d",&a);
     
     if ((a>>p)&1){
-        printf("%d",1);
+        printf("1");
     }else{
-        printf("%d",1);
+        printf("0");
     }return 0;
 }
