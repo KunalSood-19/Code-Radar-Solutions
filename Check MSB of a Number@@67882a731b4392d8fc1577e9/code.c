@@ -13,7 +13,5 @@ int main() {
     }else{
         printf("Not Set");
     }
-
-
     return 0;
 }
