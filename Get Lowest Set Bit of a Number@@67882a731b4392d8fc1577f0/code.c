@@ -8,7 +8,7 @@ int main(){
         return 0;
     }
     while((num&1)==1){
-        nnum>>=1;
+        num>>=1;
         count++;
       
     }
