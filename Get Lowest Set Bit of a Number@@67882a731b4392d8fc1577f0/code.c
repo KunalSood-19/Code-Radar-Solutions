@@ -7,7 +7,7 @@ int main(){
         printf("-1");
         return 0;
     }
-    while((num&1)==1){
+    while((num&1)==0){
         num>>=1;
         count++;
       
