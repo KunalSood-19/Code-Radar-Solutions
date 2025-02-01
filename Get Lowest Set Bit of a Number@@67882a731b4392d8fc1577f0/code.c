@@ -1,11 +1,12 @@
 #include <stdio.h>
 int main(){
-    int num,n;
+    int num;
     int count=0;
     scanf("%d",&n);
     while((num&1)==1){
-        count+=1;
-        printf("%d",count);
+        nnum>>=1;
+        count++;
+      
     }
     printf("%d",count);
     return 0;
