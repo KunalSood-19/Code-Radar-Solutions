@@ -2,7 +2,7 @@
 int main(){
     int num;
     int count=0;
-    scanf("%d",&n);
+    scanf("%d",&num);
     if (num==0){
         printf("-1");
         return 0;
