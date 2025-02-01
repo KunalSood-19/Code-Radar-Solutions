@@ -3,6 +3,10 @@ int main(){
     int num;
     int count=0;
     scanf("%d",&n);
+    if (num==0){
+        printf("-1");
+        return 0;
+    }
     while((num&1)==1){
         nnum>>=1;
         count++;
