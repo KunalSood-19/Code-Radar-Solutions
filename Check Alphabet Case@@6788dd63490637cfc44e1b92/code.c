@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(){
+    char ch;
+    scanf("%c",&ch);
+    if (ch==ch.upper()){
+        printf("Uppercase");
+    }else{
+        printf("Lowercase");
+    }return 0;
+}
