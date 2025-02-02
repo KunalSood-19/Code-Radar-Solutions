@@ -18,3 +18,7 @@ int main(){
     decimal(n);
     return 0;
 }
+
+
+
+
