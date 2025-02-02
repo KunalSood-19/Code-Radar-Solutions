@@ -14,7 +14,7 @@ printf("\n");
 }
 int main(){
     int n;
-    scanf("%s",&n);
+    scanf("%d",&n);
     binary(n);
     return 0;
 }
