@@ -15,6 +15,6 @@ printf("\n");
 int main(){
     int n;
     scanf("%d",&n);
-    binary(n);
+    decimal(n);
     return 0;
 }
