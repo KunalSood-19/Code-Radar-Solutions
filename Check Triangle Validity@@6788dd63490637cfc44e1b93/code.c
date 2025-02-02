@@ -6,7 +6,7 @@ int main(){
     scanf("%d",&b);
     scanf("%d",&c);
     if (pow(a,2)+pow(b,2)==pow(c,2)){
-        printf("Valid");
+        printf("Valid\n");
     }else{
         printf("Invalid");
     }return 0;
