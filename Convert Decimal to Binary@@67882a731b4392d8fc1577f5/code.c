@@ -3,7 +3,7 @@ void decimal(int n){
 int binary[32];
 int i=0;
 while (n>0){
-    binar[i]=n%2;
+    binary[i]=n%2;
     n=n/2;
     i++;
 }
