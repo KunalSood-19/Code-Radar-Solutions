@@ -1,6 +1,6 @@
 #include <stdio.h>
 void decimal(int n){
-int binary[i]=0;
+int binary[32];
 int i=0;
 while (n>0){
     binar[i]=n%2;
