@@ -7,19 +7,19 @@ int main(){
     scanf(" %c", &ch);
     switch(ch){
         case '+':
-        printf("%d",a+b);
+        printf("%d\n",a+b);
         break;
         case '-':
-        printf("%d",a-b);
+        printf("%d\n",a-b);
         break;
         case '*';
-        printf("%d",a*b);
+        printf("%d\n",a*b);
         break;
         case '/':
         if (b!=0){
-            printf("%d",a/b);
+            printf("%d\n",a/b);
         }else{
-            printf("error:invalid operator");
+            printf("error:invalid operator\n");
         }
         break;
         default:
