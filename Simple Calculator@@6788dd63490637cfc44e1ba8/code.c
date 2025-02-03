@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
-    char ch;
     int a,b;
+    char ch;
     scanf("%d\n",&a);
     scanf("%d\n",&b);
     scanf("%c\n",&ch);
