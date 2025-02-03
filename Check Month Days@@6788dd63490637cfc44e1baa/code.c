@@ -43,6 +43,6 @@ int main(){
         break;
         default:
         printf("Invalid month");
-        return 0;
-    }
+        
+    }return 0;
 }
