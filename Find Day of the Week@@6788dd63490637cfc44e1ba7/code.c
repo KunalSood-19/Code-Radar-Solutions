@@ -25,6 +25,6 @@ int main(){
         printf("Sunday");
         break;
         default:
-        printf("Not a Valid Entry");
-            }return 0;
+        printf("Invalid");
+        }return 0;
 }
