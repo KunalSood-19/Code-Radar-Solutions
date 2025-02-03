@@ -34,10 +34,10 @@ int main(){
         printf("30");
         break;
         case 11:
-        printf("31");
+        printf("30");
         break;
         case 12:
-        printf("30");
+        printf("31");
         break;
         default:
         printf("Invalid month");
