@@ -2,9 +2,9 @@
 int main(){
     int a,b;
     char ch;
-    scanf("%d", &a);
-    scanf("%d", &b);
-    scanf(" %c", &ch);
+    scanf("%d\n", &a);
+    scanf("%d\n", &b);
+    scanf(" %c\n", &ch);
     switch(ch){
         case '+':
         printf("%d\n",a+b);
@@ -12,7 +12,7 @@ int main(){
         case '-':
         printf("%d\n",a-b);
         break;
-        case '*';
+        case '*':
         printf("%d\n",a*b);
         break;
         case '/':
