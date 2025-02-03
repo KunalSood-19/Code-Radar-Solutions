@@ -23,6 +23,6 @@ int main(){
         }
         break;
         default:
-        printf("error");
+        printf("error:invalid operator");
     }return 0;
 }
