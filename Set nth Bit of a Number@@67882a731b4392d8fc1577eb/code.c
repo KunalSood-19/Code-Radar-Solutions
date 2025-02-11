@@ -22,8 +22,7 @@
 int main(){
     int n,p;
     scanf("%d",&n);
-    int r=((1<<p) | 1);
-    printf("%d",r);
+     printf("%d",((1<<p) |n));
     return 0;
 }
 
