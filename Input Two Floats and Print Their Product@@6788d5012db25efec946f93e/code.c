@@ -12,7 +12,7 @@
 
 #include <stdio.h>
 int main(){
-    int a,b;
+    float a,b;
     scanf("%f",&a);
     scanf("%f",&b);
     printf("Product: %.2f",a*b);
