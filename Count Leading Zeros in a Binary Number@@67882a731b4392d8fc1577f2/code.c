@@ -34,7 +34,8 @@ int main(){
     while((i==0) &&(i!=1)){
         count+=1;
         i++;
-    }printf("%d",count);
+    }
+    printf("%d",count);
     return 0;
 }
 
