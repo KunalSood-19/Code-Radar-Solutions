@@ -16,7 +16,7 @@ int main(){
     int num,n;
     scanf("%d",&num);
     scanf("%d",&n);
-    int r=(num&~(n<<num));
+    int r=(num&~(1<<num));
     printf("%d",r);
     return 0;
 }
