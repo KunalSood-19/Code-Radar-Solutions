@@ -20,8 +20,10 @@ int main(){
     scanf("%c",&ch);
     if (isupper(ch)){
         printf("Uppercase");
-    }else{
+    }else if(isupper(ch)){
         printf("Lowercase");
-    }return 0;
+    }else{printf("Not an alphabet");
+    }
+    return 0;
 
 }
