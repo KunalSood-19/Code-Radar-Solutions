@@ -30,8 +30,8 @@
 int main(){
     int n,count=0;
     scanf("%d",&n);
-    while((n&1==0) &&(n!=1)){
-        n=n<<1;
+    while((n&1==0)&&(n!=1)){
+        n<<1;
         count+=1;
     }
     printf("%d",count);
