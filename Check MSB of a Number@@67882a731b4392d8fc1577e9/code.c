@@ -26,11 +26,11 @@ int main(){
     int r=((1<<31)&num);
     if (r==1){
     printf("Set");
-    else{
+    }else{
         printf("Not Set");
     }return 0;
 }
-}
+
 
 
 
