@@ -28,8 +28,8 @@
 
 #include <stdio.h>
 int main(){
-    int num,count=0;
-    scanf("%d",&num);
+    int n,count=0;
+    scanf("%d",&n);
     while((n==0) &&(n!=1)){
         count+=1;
         n=n<<1;
