@@ -19,9 +19,9 @@ int main(){
     char c[100];
     scanf("%s",&ch);
     scanf("%d",&n);
-    scanf("%ch",&c);
-    printf("Name: %s",ch);
-    printf("Age: %d",n);
+    scanf("%s",&c);
+    printf("Name: %s\n",ch);
+    printf("Age: %d\n",n);
     printf("Hobby: %s",c);
     return 0;
     
