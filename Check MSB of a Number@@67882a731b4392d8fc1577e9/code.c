@@ -23,8 +23,7 @@
 int main(){
     int num;
     scanf("%d",&num);
-    int r=(num&(1<<31));
-    if (r==1){
+    if ((num&(1<<31))){
     printf("Set");
     }else{
         printf("Not Set");
