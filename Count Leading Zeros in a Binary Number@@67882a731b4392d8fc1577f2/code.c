@@ -18,7 +18,7 @@ int main() {
     int n, count = 0;
     scanf("%d", &n);
 
-    while (((n & 1) == 0) && (n != 0)) { // Corrected condition
+    while (((n & 1) == 0) && (n != 1)) { // Corrected condition
         n = n >> 1; // Right shift instead of left shift
         count++; 
     }
