@@ -1,3 +1,17 @@
+// #include <stdio.h>
+// int main(){
+//     int a,b;
+//     scanf("%d",&a);
+//     scanf("%d",&b);
+//     if (a>b){
+//         printf("True");
+//     }else{
+//         printf("False");
+//     }
+//     return 0;
+// }
+
+
 #include <stdio.h>
 int main(){
     int a,b;
@@ -7,6 +21,6 @@ int main(){
         printf("True");
     }else{
         printf("False");
-    }
-    return 0;
+    }return 0;
+
 }
