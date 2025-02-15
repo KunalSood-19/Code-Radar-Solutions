@@ -21,7 +21,7 @@ int main(){
     scanf("%c",&ch);
     if (isupper(ch)){
         printf("Uppercase");
-    }else if(isupper(ch)){
+    }else if(islower(ch)){
         printf("Lowercase");
     }else{printf("Not an alphabet");}
     return 0;
