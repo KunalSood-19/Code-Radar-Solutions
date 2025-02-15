@@ -11,6 +11,6 @@
 int main(){
     float n;
     scanf("%f",&n);
-    printf("You enterd:%.2f",n);
+    printf("You enterd: %.2f",n);
     return 0;
 }
