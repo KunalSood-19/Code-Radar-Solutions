@@ -37,7 +37,7 @@ int main() {
 
     if (n <= 1) { // Check for numbers less than or equal to 1
         printf("Not Prime");
-        return 0;
+       
     }
 
     for (int i = 2; i * i <= n; i++) {
