@@ -13,7 +13,7 @@ int main() {
         int num = (i % 2 == 0) ? 0 : 1;  // Start with 0 for even rows, 1 for odd rows
         
         for (int j = 1; j <= i; j++) {
-            printf("%d ", num);
+            printf("%d ",num);
             num = 1 - num;  // Toggle between 1 and 0
         }
 
