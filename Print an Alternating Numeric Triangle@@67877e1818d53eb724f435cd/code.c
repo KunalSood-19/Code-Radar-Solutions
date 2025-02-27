@@ -1,16 +1,14 @@
-
 #include <stdio.h>
 
 int main() {
-    int n, num = 1;  // Start with 1
+    int n;
     scanf("%d", &n);
 
-    for (int i = 1; i <= n; i++) {  // Rows
-        for (int j = 1; j <= i; j++) {  // Columns
-            printf("%d ", num);
-            num = 1 - num;  // Toggle between 1 and 0
+    for (int i = 1; i <= n; i++) {  
+        for (int j = 1; j <= i; j++) {  
+            printf("%d ", (i + j) % 2);  // Print 1 if (i+j) is odd, else 0
         }
-        printf("\n");
+        printf("\n");  
     }
 
     return 0;
