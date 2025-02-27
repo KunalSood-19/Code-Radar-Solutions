@@ -1,12 +1,27 @@
 #include <stdio.h>
-int main(){
+
+int main() {
     int n;
-    scanf("%d",&n);
-    for (int i=1; i<=n; i++){
-        for (int j=i; j<=n-i; j++){
+    scanf("%d", &n);
+
+    for (int i = 1; i <= n; i++) {
+        // Print leading spaces for alignment
+        for (int j = 1; j <= n - i; j++) {
             printf(" ");
-        }for (int k=1; k<=2*i-1; k++){
-            printf("%d",k);
-        }printf("\n");
-    }return 0;
+        }
+
+        // Print increasing numbers
+        for (int k = 1; k <= i; k++) {
+            printf("%d", k);
+        }
+
+        // Print decreasing numbers
+        for (int k = i - 1; k >= 1; k--) {
+            printf("%d", k);
+        }
+
+        printf("\n");  // Move to the next line
+    }
+
+    return 0;
 }
