@@ -1,4 +1,4 @@
-#include <stdio.h>
+
 
 // Function to perform Selection Sort
 void selectionSort(int arr[], int n) {
@@ -22,20 +22,4 @@ void printArray(int arr[], int n) {
         printf("%d ", arr[i]);
     }
     printf("\n");
-}
-
-// Main function
-int main() {
-    int arr[] = {64, 25, 12, 22, 11};  // Example array
-    int n = sizeof(arr) / sizeof(arr[0]);
-
-    printf("Original array: ");
-    printArray(arr, n);
-
-    selectionSort(arr, n);  // Sort the array
-
-    printf("Sorted array: ");
-    printArray(arr, n);  // Print the sorted array
-
-    return 0;
 }
